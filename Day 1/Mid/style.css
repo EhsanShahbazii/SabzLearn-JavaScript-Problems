@@ -1,0 +1,150 @@
+/* style from codepen */
+
+@import url("https://fonts.googleapis.com/css?family=Bitter:400,400i,700") * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #667db6; /* fallback for old browsers */
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+}
+
+.main {
+  width: 600px;
+  margin: 8% auto auto auto;
+  padding: 55px 55px;
+  position: relative;
+  border-radius: 7px;
+  display: table;
+}
+
+.qoute-box {
+  width: 600px;
+  height: auto;
+  border-radius: 4px;
+  padding: 55px 55px;
+  background-color: #c9d6ff;
+  position: absolute;
+  top: 55%;
+  left: 5%;
+  font-size: 1.7rem;
+  background-color: -webkit-linear-gradient(
+    to right,
+    #e2e2e2,
+    #c9d6ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background-color: linear-gradient(
+    to right,
+    #e2e2e2,
+    #c9d6ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera    12+, Safari 7+ */
+  -webkit-box-shadow: 10px 2px 21px 1px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 10px 2px 21px 1px rgba(0, 0, 0, 0.26);
+  box-shadow: 10px 2px 21px 1px rgba(0, 0, 0, 0.26);
+  color: #0f053b;
+  font-family: Bitter;
+}
+
+.qoute-text {
+  clear: both;
+  height: auto;
+  padding: 15px;
+  font-size: 2.6rem;
+  line-height: 2.8rem;
+}
+
+#text {
+  font-size: 2.2rem;
+  clear: both;
+}
+.qouter {
+  height: auto;
+  text-align: right;
+  font-size: 1.1rem;
+  padding: 25px;
+}
+
+.buttons {
+  width: 550px;
+  margin: auto;
+  display: block;
+  float: left;
+}
+
+.icn {
+  color: #0082c8;
+  font-size: 3rem;
+  margin-left: 15px;
+}
+
+.icn:hover {
+  color: #2cd174;
+  text-decoration: none;
+}
+
+.btn {
+  margin-top: 10px;
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 1rem;
+  background: #0f053b;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  text-decoration: none;
+  float: right;
+}
+
+.btn:hover {
+  background: #2cd174;
+  text-decoration: none;
+}
+
+@media (max-width: 575.98px) {
+  .main {
+    width: 350px;
+  }
+  .qoute-box {
+    width: 300px;
+  }
+
+  .qoute-text {
+    clear: both;
+    height: auto;
+    padding: 15px;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  #text {
+    font-size: 1.5rem;
+    clear: both;
+  }
+
+  .qouter {
+    height: auto;
+    text-align: right;
+    font-size: 2rem;
+    padding: 25px;
+  }
+
+  .buttons {
+    width: 210px;
+    margin: auto;
+    display: block;
+    float: left;
+  }
+
+  .icn {
+    font-size: 2.6rem;
+    margin-left: 10px;
+  }
+
+  .btn {
+    margin-top: 2px;
+  }
+}
