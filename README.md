@@ -14,3 +14,7 @@ Sabzleran questions and answers along with explanations and source codes are pla
   - Generate captcha `Beginner`: [see preview](https://codepen.io/ehsanshahbazii/pen/dyqQLWy)
   - Mouse animation `Mid`: [see preveiw](https://codepen.io/ehsanshahbazii/pen/gOdQyxL)
   - Phone book `Advance`: [see preview](https://codepen.io/ehsanshahbazii/pen/vYzQMeL)
+- **Day 4**
+  - Power in math `Beginner`: [see preview](https://codepen.io/ehsanshahbazii/pen/ExeGdRP)
+  - Dynamic background `Mid`: [see preveiw](https://codepen.io/ehsanshahbazii/pen/PodXyae)
+  - Sorting algorithms `Advance`: [see preview](https://codepen.io/ehsanshahbazii/pen/eYLbPjm)
