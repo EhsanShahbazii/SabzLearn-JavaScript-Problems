@@ -1,0 +1,116 @@
+body {
+  background-image: linear-gradient(
+    to right top,
+    #a9aaac,
+    #92a8b8,
+    #6baabb,
+    #38abaf,
+    #03aa92
+  );
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-weight: 400;
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.table {
+  width: 100%;
+}
+
+th {
+  color: #d5dde5;
+  background: #1b1e24;
+  border-bottom: 4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size: 23px;
+  font-weight: 100;
+  padding: 24px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align: middle;
+}
+
+tr {
+  color: #666b85;
+  font-size: 16px;
+  font-weight: normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+td {
+  background: #ffffff;
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.head {
+  background-color: #4e5066;
+  color: #fff;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.manage {
+  display: flex;
+  width: 80%;
+}
+
+.box {
+  width: 300px;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.manage label {
+  margin-top: 1rem;
+  margin-bottom: 4px;
+  font-size: 1rem;
+}
+
+input {
+  width: 100%;
+  font-size: 1rem;
+}
+
+input {
+  height: 30px;
+}
+
+.box button,
+#showTaskBtn {
+  margin-top: 1rem;
+  width: 102%;
+  background-color: rgb(3, 178, 3);
+  border: none;
+  font-size: 1.2rem;
+  padding: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.box button:hover {
+  background-color: rgb(6, 210, 6);
+}
+
+#showt {
+  width: 300px;
+}
+
+#showTaskBtn {
+  width: 100px;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
