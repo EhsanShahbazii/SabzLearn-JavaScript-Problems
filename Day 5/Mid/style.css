@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Arbutus&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arbutus", cursive;
+}
+body {
+  overflow: hidden;
+  background-image: linear-gradient(
+    to right bottom,
+    #03204a,
+    #021d49,
+    #021b49,
+    #021848,
+    #031547
+  );
+  min-height: 100vh;
+  color: #fff;
+}
+.computer {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: rgb(239, 13, 13);
+  top: 200px;
+  left: 700px;
+  transition: left 1s linear, top 1s linear;
+}
+
+.user {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgb(164, 255, 8);
+  top: 10px;
+  left: 10px;
+}
+
+.menu {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 8px;
+  letter-spacing: 3px;
+  background-color: #5e5e5e;
+}
+
+.timer {
+  font-size: 25px;
+  font-weight: 600;
+}
