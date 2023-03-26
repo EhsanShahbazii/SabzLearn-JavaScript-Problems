@@ -18,3 +18,11 @@ Sabzleran questions and answers along with explanations and source codes are pla
   - Power in math `Beginner`: [see preview](https://codepen.io/ehsanshahbazii/pen/ExeGdRP)
   - Dynamic background `Mid`: [see preveiw](https://codepen.io/ehsanshahbazii/pen/PodXyae)
   - Sorting algorithms `Advance`: [see preview](https://codepen.io/ehsanshahbazii/pen/eYLbPjm)
+- **Day 5**
+  - Power in math `Beginner`: [see preview](https://codepen.io/ehsanshahbazii/pen/ExeGdRP)
+  - Dynamic background `Mid`: [see preveiw](https://codepen.io/ehsanshahbazii/pen/PodXyae)
+  - Sorting algorithms `Advance`: [see preview](https://codepen.io/ehsanshahbazii/pen/eYLbPjm)
+- **Day 6**
+  - Power in math `Beginner`: [see preview](https://codepen.io/ehsanshahbazii/pen/ExeGdRP)
+  - Dynamic background `Mid`: [see preveiw](https://codepen.io/ehsanshahbazii/pen/PodXyae)
+  - Sorting algorithms `Advance`: [see preview](https://codepen.io/ehsanshahbazii/pen/eYLbPjm)
