@@ -19,10 +19,10 @@ Sabzleran questions and answers along with explanations and source codes are pla
   - Dynamic background `Mid`: [see preveiw](https://codepen.io/ehsanshahbazii/pen/PodXyae)
   - Sorting algorithms `Advance`: [see preview](https://codepen.io/ehsanshahbazii/pen/eYLbPjm)
 - **Day 5**
-  - Power in math `Beginner`: [see preview](https://codepen.io/ehsanshahbazii/pen/ExeGdRP)
-  - Dynamic background `Mid`: [see preveiw](https://codepen.io/ehsanshahbazii/pen/PodXyae)
-  - Sorting algorithms `Advance`: [see preview](https://codepen.io/ehsanshahbazii/pen/eYLbPjm)
+  - Image slider `Beginner`: [see preview](https://codepen.io/ehsanshahbazii/pen/bGMKEGx)
+  - Tracker game `Mid`: [see preveiw](https://codepen.io/ehsanshahbazii/pen/bGxzomx)
+  - Typing speed `Advance`: not complete yet
 - **Day 6**
-  - Power in math `Beginner`: [see preview](https://codepen.io/ehsanshahbazii/pen/ExeGdRP)
-  - Dynamic background `Mid`: [see preveiw](https://codepen.io/ehsanshahbazii/pen/PodXyae)
-  - Sorting algorithms `Advance`: [see preview](https://codepen.io/ehsanshahbazii/pen/eYLbPjm)
+  - Fibonacci series `Beginner`: [see preview](https://codepen.io/ehsanshahbazii/pen/NWLoaEO)
+  - Music player `Mid`: not complete yet
+  - Admin dashboard CRUD `Advance`: not complete yet
