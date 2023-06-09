@@ -1,0 +1,64 @@
+:root {
+  --primary-light: #8abdff;
+  --primary: #6d5dfc;
+  --primary-dark: #5b0eeb;
+  --white: #ffffff;
+  --greyLight-1: #e4ebf5;
+  --greyLight-2: #c8d0e7;
+  --greyLight-3: #bec8e4;
+  --greyDark: #9baacf;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  background: var(--primary);
+  overflow: hidden;
+}
+
+.drop {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #d2691e;
+  position: absolute;
+  z-index: -1;
+}
+
+.controller {
+  background-color: #9baacf;
+  width: 200px;
+  height: 300px;
+}
+
+input[type="color"] {
+  width: 150px;
+  height: 50px;
+  margin: 4px;
+}
+
+input[type="range"] {
+  width: 150px;
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+
+input[type="checkbox"] {
+  height: 25px;
+  width: 25px;
+  margin-right: 8px;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
