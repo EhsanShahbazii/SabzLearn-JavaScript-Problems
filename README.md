@@ -10,3 +10,7 @@ Sabzleran questions and answers along with explanations and source codes are pla
   - Number of digits `Beginner`: [see preview](https://codepen.io/ehsanshahbazii/pen/VwGEorj)
   - Guess the word `Mid`: [see preveiw](https://codepen.io/ehsanshahbazii/pen/JjamgMo)
   - Shopping Card `Advance`: not complete yet
+- **Day 3**
+  - Generate captcha `Beginner`: [see preview](https://codepen.io/ehsanshahbazii/pen/dyqQLWy)
+  - Mouse animation `Mid`: [see preveiw](https://codepen.io/ehsanshahbazii/pen/gOdQyxL)
+  - Phone book `Advance`: [see preview](https://codepen.io/ehsanshahbazii/pen/vYzQMeL)
