@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #d9d9d9;
+  font-family: "Roboto", sans-serif;
+  user-select: none;
+}
+
+.phoneBook {
+  background-color: #fff;
+  width: 380px;
+  height: 650px;
+  position: relative;
+}
+
+.header-top {
+  max-width: 100%;
+  padding: 17px 25px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 20;
+}
+.header-top-dial {
+  position: absolute;
+  width: 100%;
+  top: -1px;
+}
+
+.top-left-time {
+  font-size: 18px;
+}
+
+.top-left-weather {
+  font-size: 14px;
+}
+.header-top-left span {
+  margin: 0 1px;
+}
+.top-right-alarm {
+  font-size: 14px;
+}
+.top-right-data_signal {
+  font-size: 14px;
+}
+.header-top-right {
+  align-items: center;
+  display: flex;
+}
+.header-top-right span {
+  margin: 0 2px;
+}
+
+.top-right-battery {
+  font-weight: bold;
+  font-size: 12px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  padding: 0 4px;
+}
+
+.contacts {
+  width: 100%;
+  height: 90%;
+  /* background-color: cadetblue; */
+  overflow-y: auto;
+}
+
+.headh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin-top: 1rem;
+  border-bottom: 2px solid blue;
+  padding-bottom: 2px;
+  display: inline;
+}
+
+.box {
+  /* background-color: burlywood; */
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.box:hover {
+  background-color: #ebebeb;
+}
+
+.img {
+  background-color: yellowgreen;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.number {
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.keyContainer {
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  transition: all 0.5s;
+  overflow: hidden;
+  /* height: 20px; */
+}
+
+.keyContainer.deactive {
+  height: 20px;
+}
+
+.numKey {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.close {
+  text-align: center;
+  background-color: #ebebeb;
+  cursor: pointer;
+  height: 20px;
+}
+
+.currentNumber {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.keys {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 0.4rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.more {
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+.keys:hover {
+  background-color: #ebebeb;
+}
+
+.submits {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.iKey {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.submit,
+.nameModal button {
+  background-color: rgb(4, 170, 4);
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+
+.submit:active {
+  background-color: rgb(0, 82, 0);
+}
+
+.nameModal {
+  padding: 2.5rem;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.3s;
+  display: none;
+}
+
+.nameModal.active {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nameModal h4 {
+  margin-bottom: 2rem;
+}
+
+.nameModal input {
+  border: none;
+  outline: none;
+  padding: 4px 12px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.nameModal button {
+  border: none;
+  border-radius: 4px;
+  font-size: 17px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.numPad {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgb(4, 170, 4);
+  border-radius: 50%;
+  transition: all 0.5s;
+  cursor: pointer;
+  display: none;
+}
+
+.numPad:active {
+  background-color: rgb(0, 82, 0);
+}
+
+.numPad.active {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
