@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mid</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="components">
+        <h2>Power</h2>
+
+        <div class="form">
+          <input
+            type="text"
+            class="form__input"
+            placeholder="2"
+            maxlength="10"
+            id="first"
+          />
+          <span style="font-size: 2rem; color: #5b0eeb">^</span>
+          <input
+            type="text"
+            class="form__input"
+            placeholder="8"
+            maxlength="10"
+            id="second"
+          />
+          <div style="display: flex; justify-content: center">
+            <div class="chip">
+              <p id="result">256</p>
+            </div>
+          </div>
+        </div>
+        <button id="submit_btn">
+          <div class="btn btn__primary"><p>Calculate</p></div>
+        </button>
+      </div>
+      <a href="https://github.com/EhsanShahbazii" class="github" target="_blank"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
