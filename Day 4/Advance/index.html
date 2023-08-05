@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mid</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="components">
+        <h2 class="head">Sorting</h2>
+        <div
+          class="form"
+          style="display: flex; flex-direction: column; align-items: center"
+        >
+          <input
+            type="text"
+            class="form__input"
+            placeholder="2, 5, 6, 9, 9, 0, 0, 1, 1, 10"
+            id="input"
+          />
+          <div style="display: flex; justify-content: center">
+            <div class="chip">
+              <p id="result">2, 5, 6, 9, 9, 0, 0, 1, 1, 10</p>
+            </div>
+          </div>
+          <div class="controll">
+            <button class="ctrl">
+              <div class="chip ch2">
+                <p id="result">Bubble</p>
+              </div>
+            </button>
+            <button class="ctrl">
+              <div class="chip ch2">
+                <p id="result">Selection</p>
+              </div>
+            </button>
+            <button class="ctrl">
+              <div class="chip ch2">
+                <p id="result">Insertion</p>
+              </div>
+            </button>
+            <!-- <button class="ctrl">
+              <div class="chip ch2">
+                <p id="result">Merge</p>
+              </div>
+            </button> -->
+            <!-- <button class="ctrl">
+              <div class="chip ch2">
+                <p id="result">Quick</p>
+              </div>
+            </button> -->
+          </div>
+        </div>
+        <button id="submit_btn">
+          <div class="btn btn__primary"><p>sort it</p></div>
+        </button>
+      </div>
+      <a href="https://github.com/EhsanShahbazii" class="github" target="_blank"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
