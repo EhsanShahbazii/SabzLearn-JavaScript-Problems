@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mid</title>
+  </head>
+  <body>
+    <div class="menu">
+      <div>
+        <label for="input">Computer Speed</label>
+        <input
+          type="range"
+          min="1"
+          max="20"
+          step="1"
+          value="5"
+          id="comp_speed_range"
+        />
+      </div>
+      <div class="timer">0:30</div>
+      <div>
+        <label for="input">User Speed</label>
+        <input
+          type="range"
+          min="1"
+          max="25"
+          step="1"
+          value="10"
+          id="user_speed_range"
+        />
+      </div>
+    </div>
+    <div style="position: relative">
+      <div class="computer"></div>
+      <div class="user" id="user"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
