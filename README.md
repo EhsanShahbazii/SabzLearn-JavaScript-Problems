@@ -26,3 +26,6 @@ Sabzleran questions and answers along with explanations and source codes are pla
   - Fibonacci series `Beginner`: [see preview](https://codepen.io/ehsanshahbazii/pen/NWLoaEO)
   - Music player `Mid`: not complete yet
   - Admin dashboard CRUD `Advance`: not complete yet
+- **Day 9**
+  - Random number `Beginner`: [see preview]()
+  - char with count one `Mid`: [see preview]()
